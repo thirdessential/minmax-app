@@ -149,6 +149,7 @@ $(document).ready(function(){
 		    		mythis['0'].click();
 				 }
 				var totalqty = 0;
+				var totalAmount = 0;
 				//console.log(prd_array);
 				$.each(prd_array, function (product_id,prd_qty) {
 					//console.log(brandObj[$brd_name]);
@@ -219,4 +220,3 @@ function loadDoc1(type, id){
 		}
 	});
 };
-
